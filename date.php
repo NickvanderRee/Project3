@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1>Pagina van Oskar</h1>
+        <h1>website</h1>
         <a href="index.html">Home</a>
         <br><br>
         <a href="pag1.html">pagina Nick</a>
@@ -17,7 +17,9 @@
         <a href="pag2.html">pagina Oskar</a>
     </header>
     <main>
-
+        <?php
+            echo "Today is " . date("Y-m-d") . "<br>";
+        ?>
     </main>
     <footer>
 
